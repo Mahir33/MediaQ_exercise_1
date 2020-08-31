@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ececec;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+form {
+    box-shadow: 0px 1px 5px;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 20%;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.login-info-group input {
+    padding: 8px 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login-info-group label {
+    padding-top: 10px;
+
+}
+
+
+fieldset {
+    border: none;
+    padding: 20px 0;
+}
+
+span {
+    float: left;
+}
+
+.forgot-pw a {
+    float: right;
+    text-decoration: none;
+}
+
+.forgot-pw a:hover {
+    text-decoration: underline;
+    color: rgb(13, 13, 82);
+}
+
+.submit-btn {
+    background-color: blue;
+    color: white;
+    padding: 15px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: rgb(75, 75, 104);
+    color: white;
+    cursor: pointer;
+
+}

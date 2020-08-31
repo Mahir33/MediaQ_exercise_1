@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width:750px)" href="css/tabletStyle.css">
+    <link rel="stylesheet" media="screen and (min-width:970px)" href="css/laptopStyle.css">
+
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <main>
+        <form class="signin-form" action="#" method="#">
+            <h1 class="form-heading">Sign-In to Your Account</h1>
+            <fieldset class="login-info-group">
+                <label for="user_name">Username:</label>
+                <input type="text" name="username" id="user_name"> <br>
+
+                <label for="user-password">Password:</label>
+                <input type="password" name="password" id="user-password">
+            </fieldset>
+
+            <fieldset class="additional-options clearfix">
+                <div class="options-wrapper">
+                    <span>
+                        <input type="checkbox" name="signed-in" id="user-signed-in">
+                        <label for="user-signed-in" class="signed-in-label">Stay Signed In</label>
+                    </span>
+
+                    <label class="forgot-pw"><a href="#">Forgot Password?</a></label>
+                </div>
+
+            </fieldset>
+
+            <button class="submit-btn" type="submit">Sign In</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
